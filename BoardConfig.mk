@@ -26,7 +26,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
 # Prebuilt TWRP include
--include device/twrp/fajita/twrp.mk
+#-include device/twrp/fajita/twrp.mk
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/oneplus/common
